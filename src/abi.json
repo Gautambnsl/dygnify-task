@@ -1,0 +1,148 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_buyerPan",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_sellerPan",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_Value",
+				"type": "uint256"
+			}
+		],
+		"name": "doTransaction",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getAllPreviousTrx",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "buyerPan",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sellerPan",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "date",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct Dygnify.invoice[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_buyerPan",
+				"type": "uint256"
+			}
+		],
+		"name": "getBuyerTrx",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "buyerPan",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sellerPan",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "date",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct Dygnify.invoice[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "transaction",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "buyerPan",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "sellerPan",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "value",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "date",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "txCount",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
